@@ -28,6 +28,7 @@ Execute the program using runserver command.
 <html>
 <head>
      <title> SLOT TIMETABLE </title>
+</head>
 <body>
 <img src="/static/logo.png" height="200" width="1000">
 <table border="2">
@@ -113,7 +114,7 @@ Execute the program using runserver command.
         <td>DIGITAL ELECTRONICS </td>
     </tr>
 </table>
-</head>
+</body>
 </html>
 
 '''
