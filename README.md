@@ -113,6 +113,9 @@ Execute the program using runserver command.
         <td>DIGITAL ELECTRONICS </td>
     </tr>
 </table>
+</head>
+</html>
+
 '''
 
 ## OUTPUT
