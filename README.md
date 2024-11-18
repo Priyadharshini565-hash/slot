@@ -25,96 +25,56 @@ Execute the program using runserver command.
 
 ## PROGRAM
 '''
-<html>
-<head>
-     <title> SLOT TIMETABLE </title>
-</head>
-<body>
-<img src="/static/logo.png" height="200" width="1000">
-<table border="2">
-    <h1>PRIYADHARSHINI.R (24900285)</h1>
-    <caption>Marksheet</caption>
-    <tr bgcolor="red">
-        <th>TIME/DAY</th>
-        <th>MONDAY</th>
-        <th>TUESDAY</th>
-        <th>WEDNESDAY</th>
-        <th>THURSDAY</th>
-        <th>FRIDAY</th>
-        <th>SATURDAY</th>
-    </tr>
-    <tr bgcolor="yellow">
-        <th>8-10</th>
-        <td>Free</td>
-        <td>Web</td>
-        <td>Free</td>
-        <td>Free</td>
-        <td>Free</td>
-        <td>Eng</td>
-    </tr>
-    <tr bgcolor="yellow">
-        <th>1-3</th>
-        <td>Maths</td>
-        <td>Free</td>
-        <td>Eng</td>
-        <td>Free</td>
-        <td>Career</td>
-        <td>C program</td>
-    </tr>
-    <tr bgcolor="yellow">
-        <th>3-5</th>
-        <td>Free</td>
-        <td>DE</td>
-        <td>Chem</td>
-        <td>Chem</td>
-        <td>Free</td>
-        <td>Free</td>
-    </tr>
-    </table>
-</table border>
-<table border="2">
-    <tr bgcolor="red">
-        <th>S.no</th>
-        <th>Couse code</th>
-        <th>Course name</th>
-    </tr>
-    <tr bgcolor="yellow">
-        <td>1</td>
-        <td>19AI414</td>
-        <td>FUNDAMENTALS OF WEB APPLICATION</td>
-    </tr>
-    <tr bgcolor="yellow">
-        <td>2</td>
-        <td>19MA201</td>
-        <td>CALCULUS AND MATRIX ALGEBRA </td>
-    </tr>
-    <tr bgcolor="yellow">
-        <td>3</td>
-        <td>19EN101</td>
-        <td>COMMUNICATIVE ENGLISH</td>
-    </tr>
-    <tr bgcolor="yellow">
-        <td>4</td>
-        <td>19AI304</td>
-        <td>FUNDAMENTALS OF C PROGRAMMING</td>
-    </tr>
-    <tr bgcolor="yellow">
-        <td>5</td>
-        <td>19EY708</td>
-        <td>CAREER DEVELOPMENT SKILLS</td>
-    </tr>
-    <tr bgcolor="yellow">
-        <td>6</td>
-        <td>19CY205</td>
-        <td>PRINCIPLE OF CHEMISTRY IN ENGINEERING </td>
-    </tr>
-    <tr bgcolor="yellow">
-        <td>7</td>
-        <td>19EE404</td>
-        <td>DIGITAL ELECTRONICS </td>
-    </tr>
-</table>
-</body>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta <name="viewport" content="width=device-width,initial-scale=1.0">
+            <title>table</title>
+    </head>
+    <body bgcolor="cyan">
+        <img src="/static/logo.png" height="100" width="540">
+        <table border="5" cellpadding="20" bgcolor="orange" align="center">
+            <tr>
+                <th bgcolor="red">TIME</th>
+                <th bgcolor="red">MONDAY</th>
+                <th bgcolor="red">TUESDAY</th>
+                <th bgcolor="red">WEDNESDAY</th>
+                <th bgcolor="red">THURSDAY</th>
+                <th bgcolor="red">FRIDAY</th>
+                <th bgcolor="red">SATURDAY</th>
+            </tr>
+
+            <tr>
+                <th bgcolor="red">8-10</th>
+                <td>-</td>
+                <td>DIGITAL ELECTRONICS</td>
+                <td>PHYSICS</td>
+                <td>-</td>
+                <td>-</td>
+            </tr>
+            
+            <tr>
+                <th bgcolor="red">10-12</th>
+                <td>WEB DEVELOPMENT</td>
+                <td>DATA SCIENCE</td>
+                <td>WEB DEVELOPMENT</td>
+                <td>CHEMISTRY</td>
+                <td>ENGLISH</td>
+                <td>PHYSICS</td>
+            </tr>
+
+            <tr>
+                <th bgcolor="red">1-3</th>
+                <td>PHYSICS</td>
+                <td>DIGITAL ELECTRONICS</td>
+                <td>MENTORMEET</td>
+                <td>ENGLISH</td>
+                <td>DATASCIENCE</td>
+                <td>WEB DEVELOPMENT</td>
+            </tr>
+            </table>
+            </body>
 </html>
 
 '''
