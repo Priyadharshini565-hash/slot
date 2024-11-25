@@ -25,6 +25,7 @@ Execute the program using runserver command.
 
 ## PROGRAM
 '''
+<pre><code>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -74,6 +75,7 @@ Execute the program using runserver command.
             </table>
         </body>
 </html>
+    </code></pre>
 '''
             
 
